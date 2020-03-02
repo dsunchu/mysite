@@ -1,0 +1,4 @@
+{% block content %}
+<p>this code is included in home.html</p>
+
+{% endblock %}

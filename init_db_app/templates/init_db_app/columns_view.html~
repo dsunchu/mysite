@@ -1,0 +1,7 @@
+
+{% extends "templates_app/header.html" %}
+{% block content %}
+	{% for put_data in object_list %}
+		<h5>{{ put_data.date|date:"Y-m-d" }}<a href="/init_db_app/{{put_data.column_one}}">  {{ put_data.column_one }}</a></h5>
+	{% endfor %}
+{% endblock %}

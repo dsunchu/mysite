@@ -1,0 +1,5 @@
+{% extends "templates_app/header.html" %}
+
+{% block content %}
+<p>example of how to use jinja templates with django</p>
+{% endblock %}

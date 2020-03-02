@@ -1,0 +1,11 @@
+{% extends "templates_app/header.html" %}
+{% block content %}
+<h3><a href="/init_db_app">back to table</a></h3>
+<h3>{{ put_data.column_one }}</h3>
+<h6> on {{ put_data.date }}</h6>
+<h5>this is an individual post for the "inputted" data</h5>
+<div class = "container">
+	{{ put_data.body|safe|linebreaks}}
+</div>
+<br><br>
+{% endblock %}
